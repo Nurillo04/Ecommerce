@@ -1,0 +1,62 @@
+.karta {
+  margin: 80px 0px 100px 0px;
+  &__top h2 {
+    font-family: $RubikBold1;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 40px;
+  }
+  &__bottom {
+    @include flex;
+    gap: 40px;
+  }
+  &__left {
+    @include flex;
+    background-color: #fcd5ba;
+    padding: 10px 30px 10px 30px;
+    gap: 21px;
+    border-radius: 4px;
+    background: var(--main-primary-muted, #fcd5ba);
+    box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5);
+  }
+  &__right {
+    @include flex;
+    gap: 21px;
+    background-color: #e5ffde;
+    border-radius: 4px;
+    background: var(--main-secondary-muted, #e5ffde);
+    padding: 10px 30px 10px 30px;
+  }
+  &__left-left h2 {
+    font-family: $RubikBold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+  &__left-left p {
+    font-family: $Rubiklg;
+    margin-top: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  &__right-left h2 {
+    font-family: $RubikBold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+  &__right-left p {
+    font-family: $Rubiklg;
+    margin-top: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}

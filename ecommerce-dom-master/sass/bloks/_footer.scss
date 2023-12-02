@@ -1,0 +1,41 @@
+.footer {
+  padding: 35px;
+  &__wrapper {
+    @include flex(space-between);
+  }
+  &__left {
+    @include flex(space-between);
+    gap: 40px;
+  }
+  &__list {
+    @include flex(space-between);
+    gap: 40px;
+  }
+  &__item a {
+    font-family: $Rubiklg;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: black;
+  }
+  &__right {
+    @include flex(space-between);
+    gap: 40px;
+  }
+  &__right-list {
+    @include flex(space-between);
+    gap: 16px;
+  }
+  &__right-tel {
+    @include flex(space-between);
+    gap: 16px;
+  }
+  &__right-tel a {
+    font-family: $Rubiklg;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}

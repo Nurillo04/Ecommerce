@@ -1,0 +1,37 @@
+.magazin {
+  &__top h2 {
+    font-family: $RubikBold1;
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+  &__list {
+    display: flex;
+    gap: 24px;
+    margin: 24px 0px;
+  }
+  &__item p {
+    font-family: $Rubiklg;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #606060;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f3f2f1;
+  }
+  &__item-active {
+    border-radius: 4px;
+    background: #70c05b;
+    color: white;
+  }
+}
+.magazin__item-active {
+  border-radius: 4px;
+  background: #70c05b;
+  color: white;
+}
